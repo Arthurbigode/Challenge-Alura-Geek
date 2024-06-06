@@ -1,0 +1,16 @@
+{
+  "produtos": [
+    {
+      "nome": "Nike Dunk",
+      "preco": "600,00",
+      "imagem": "https://imgnike-a.akamaihd.net/768x768/02459551.jpg",
+      "id": "1"
+    },
+    {
+      "nome": "Arthur",
+      "preco": "500",
+      "imagem": "https://i0.wp.com/sneakersbr.co/wp-content/uploads/2021/08/nike-sb-dunk-low-orange-label-purple-unbleached-01.jpeg?ssl=1",
+      "id": "2"
+    }
+  ]
+}

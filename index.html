@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu AluraGeek</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Press+Start+2P&display=swap');
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="header__logo">
+        <img class="header__img" src="imagens/logoAluraGeek.png" alt="LogoAluraGeek">
+    </div>
+</header>
+
+<main>
+    <section class="produtos">
+        <h1 class="produtos__title">Meus produtos:</h1>
+        <div class="produtos__card" data-lista>
+            <div class="card__line1">
+                <div class="card__container-line1" >
+                    <img class="card__img" src="imagens/sneakersBranco.jpg" alt="Imagen del producto">
+                    <p class="card__text">Nike Dunk Jumbo</p>
+                    <div class="card__container__value">
+                        <p class="card__value">$ 800,00</p>
+                        <img src="imagens/lixoLogo.png" alt="Ícono de eliminación">
+                    </div>
+                </div>
+    
+                <div class="card__container-line1">
+                    <img class="card__img" src="imagens/sneakersCinza.jpg" alt="Imagen del producto">
+                    <p class="card__text">Nike Dunk</p>
+                    <div class="card__container__value">
+                        <p class="card__value">$ 600,00</p>
+                        <img src="imagens/lixoLogo.png" alt="Ícono de eliminación">
+                    </div>
+                </div>
+    
+                <div class="card__container-line1">
+                    <img class="card__img" src="imagens/sneakersLaranjaMarromBranco.jpg" alt="Imagen del producto">
+                    <p class="card__text">Nike Dunk</p>
+                    <div class="card__container__value">
+                        <p class="card__value">$ 600,00</p>
+                        <img src="imagens/lixoLogo.png" alt="Ícono de eliminación">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="adicionarProdutos" data-formulario>
+        <h1 class="adicionarProdutos__title">Adicionar Produto:</h1>
+        <form class="adicionarProdutos__form">
+            <input type="text" id="nome" class="adicionarProdutos__form__input" data-nome>
+            <label for="nome" class="adicionarProdutos__form__label">Nome</label>
+        </form>
+
+        <form class="adicionarProdutos__form">
+            <input type="text" id="valor" class="adicionarProdutos__form__input" data-preco>
+            <label for="valor" class="adicionarProdutos__form__label">Valor</label>
+        </form>
+
+        <form class="adicionarProdutos__form">
+            <input type="text" id="imagem" class="adicionarProdutos__form__input" data-imagem>
+            <label for="imagem" class="adicionarProdutos__form__label">Imagem</label>
+        </form>
+
+        <form class="adicionarProdutos__button">
+            <input type="submit" value="Enviar" class="button__enviar">
+            <input type="button" value="Limpar" class="button__limpar">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer__container">
+        <img class="footer__img" src="imagens/logoAluraGeek.png" alt="LogoAluraGeek">
+        <h2 class="footer__text">Desenvolvido por Arthur Bertapelli</h2>
+        <p class="footer__text">Alura Latan - 2024</p>
+    </div>
+</footer>
+
+<script src="js/produtos.js" type="module"></script>
+<script src="js/criarImagem.js" type="module"></script>
+
+</body>
+</html>
